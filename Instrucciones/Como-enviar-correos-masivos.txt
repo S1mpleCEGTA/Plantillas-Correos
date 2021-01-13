@@ -5,11 +5,22 @@
 ----------REQUISITOS
 1. Descargar el programa Mozilla Thunderbird (gestor de correos)
 2. Saber editar código HTML
+3. Saber utilizar el formato CSV
+4. Tener una plantilla de contactos en CSV, de preferencia con títulos NOMBRE y CORREO
 
 ----------PROCEDIMIENTO
 1. Dentro del programa Mozilla Thunderbird, deberás abrir tu cuenta de correo asociada a tu dominio (correo@tudominio.com), esto por que servicios de correo gratuito como Gmail y Yahoo! establecen límites de envío de correo diarios
 2. Descargar la extensión MAIL MERGE para Mozilla Thunderbird
 3. Crear una plantilla de correo en HTML (o descargarla y editarla de este repositorio)
 4. Redactar un nuevo correo
-5. Copiar el código completo de la plantilla
-6. En la pestaña Insertar, HTML, pegar
+5. En el destinatario se escribirá {{CORREO}} en referencia a los correos del formato CSV
+7. Dar asunto se puede personalizar como: Hola {{NOMBRE}} tenemos...
+8. Copiar el código completo de la plantilla
+9. En la pestaña Insertar, HTML, pegar
+10. Comprobar todos los datos
+11. Dar click en archivo, elegir Mail Merge
+12. En fuente escoger CSV
+13. En modo de envío escoger "Enviar Ahora"
+14. Seleccionar el arcihvo CSV en el apartado File y comprobar su integridad con el botón preview
+15. Darle pausas de entre 30 segundos y un minuto
+16. Enviar
