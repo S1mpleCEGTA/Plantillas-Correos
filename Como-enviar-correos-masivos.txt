@@ -1,0 +1,15 @@
+----------GUIA PARA ENVIAR CORREOS ELECTRÓNICOS DE FORMA MASIVA GRATUITAMENTE----------
+
+-------Skyhard-------
+
+----------REQUISITOS
+1. Descargar el programa Mozilla Thunderbird (gestor de correos)
+2. Saber editar código HTML
+
+----------PROCEDIMIENTO
+1. Dentro del programa Mozilla Thunderbird, deberás abrir tu cuenta de correo asociada a tu dominio (correo@tudominio.com), esto por que servicios de correo gratuito como Gmail y Yahoo! establecen límites de envío de correo diarios
+2. Descargar la extensión MAIL MERGE para Mozilla Thunderbird
+3. Crear una plantilla de correo en HTML (o descargarla y editarla de este repositorio)
+4. Redactar un nuevo correo
+5. Copiar el código completo de la plantilla
+6. En la pestaña Insertar, HTML, pegar
